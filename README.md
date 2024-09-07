@@ -13,7 +13,7 @@ Este projeto web permite que você explore a história das moedas brasileiras. A
 ## Como Usar
 1. **Clone o repositório:**
    ```bash
-   git clone https://seu-repositorio.git
+   git clone 
    ```
 2. **Abra o arquivo HTML:**
    Abra o arquivo `index.html` em seu navegador web preferido.
