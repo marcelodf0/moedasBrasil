@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Moedas do Brasil</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cédulas e Moedas do Brasil</h1>
+    </header>
+    <main>
+        <section>
+            <p class="p1">Durante o século passado, o Brasil trocou de papel moeda várias vezes em virtude de processos inflacionários.</p>
+            <p class="p2">Você quer saber qual era a moeda vigente em um determinado ano?</p>
+        </section>
+        <section>
+            <input type="text" placeholder="Entre com o ano (AAAA)" id="ano-pesquisa">
+            <button onclick="moedaAno()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+        <p>2024 - Cédulas e Moedas do brasil</p>
+        <p>Fontes de Dados: <a href="https://www.bcb.gov.br/" target="_blank" style="color: chartreuse;">Banco Central do Brasil</a> / 
+            <a href="http://www.ipeadata.gov.br/Default.aspx" target="_blank" style="color: chartreuse;">Ipeadata</a></p>
+        <p>Imersão Dev com Google Gemini - <a href="https://www.alura.com.br/" target="_blank" style="color: chartreuse;">Alura</a> | imersões</p>
+    </footer>
+    <script src="moedas.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
